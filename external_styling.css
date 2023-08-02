@@ -1,0 +1,33 @@
+/*body{
+	background-color:white}
+h2{color:blue;
+text-align:center}
+h1{
+	color:green ;
+}*/
+/*universal selector*/
+/**{
+	font-family: cursive;
+
+}*/
+
+input[type="text"]{
+	color: blue;
+}
+input[type="number"]{
+	color: red;
+}
+input[type="email"]{
+	color: green;
+}
+input[type="password"]{
+	color: violet;
+}
+a[href]{
+	color: skyblue;
+}
+img[src]{
+	height: 400px;
+	width: 300px;
+	margin: 0px;
+}

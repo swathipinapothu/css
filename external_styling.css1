@@ -1,0 +1,7 @@
+.external{
+	color:red
+}
+body{
+	background-color:#123456}
+h3{color:white;
+text-align:center}

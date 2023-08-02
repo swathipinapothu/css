@@ -1,0 +1,41 @@
+/*.main{
+	height: 700px;
+	width: 700px;
+}
+.a{
+	height:1200px;
+	width: 1200px;
+	background-image:url(guitar.jpg) ;
+	background-repeat:no repeat ;
+	background-size:cover ;
+}*/
+.main{
+	height:400px;
+	width:1000px;
+	background:gray;
+	padding:0px;
+}
+.a{
+	height:300px;
+	width:800px;
+	background:lightblue;
+	padding:0px;
+	margin-left:100px;
+	margin-top:35px;
+}
+.b{
+	height:200px;
+	width:600px;
+	background:lightgreen;
+	padding:0px;
+	margin-left:100px;
+	margin-top:30px;
+}
+.c{
+	height:100px;
+	width:400px;
+	background:lightpink;
+	padding:0px;
+	margin-left:100px;
+	margin-top:30px;
+}

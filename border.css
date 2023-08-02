@@ -1,0 +1,8 @@
+body{
+	border: dashed;
+	border-color:skyblue green yellow blue ;
+	border-top:dotted ;
+	border-right:inset ;
+	border-bottom:ridge;
+	border-left:dashed ;
+}

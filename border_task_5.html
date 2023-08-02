@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>border task</title>
+
+<style>
+	.scoop{
+		position: realative;
+		font-size: 25px;
+		font-family: initial;
+		z-index: 1;
+		left: 200px;
+		top: 100px;
+	}
+	.scoop:before{
+		z-index: -1;
+		content: "";
+		position: absolute;
+		background:radial-gradient(circle at 0 0, transparent 10%,orangered calc(10%)) top left;
+	        	   
+
+		background-size:50% 50%;
+		background-repeat: no-repeat;
+		width:800px;
+		height:200px;
+		left:-40px;
+		top:-45px;
+			}
+
+</style>
+</head>
+<body>
+	<div class="scoop">
+		<p>This is a div with a border image<br>and three lines of text<br>making it much bigger than the original image</p>
+		</div> 
+
+</body>
+</html>
+radial-gradient(circle at 100% 0, transparent 10%, orangered calc(10%))top right;
+		           radial-gradient(circle at 0 100%, transparent 10%, orangered calc(10%)) bottom left;
+		           radial-gradient(circle at 100% 100%,transparent 10%,orangered calc(10%)) bottom right;
